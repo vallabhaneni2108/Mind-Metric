@@ -1,0 +1,80 @@
+# =====================================
+# Python
+# =====================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Python environment
+.python-version
+
+# =====================================
+# Environment variables / API keys
+# =====================================
+.env
+.env.*
+!.env.example
+
+# =====================================
+# Machine Learning models
+# =====================================
+# Keep model files locally if they are large.
+# Remove this rule if you want to upload your model.
+*.pickle
+*.joblib
+
+# =====================================
+# Jupyter Notebook
+# =====================================
+.ipynb_checkpoints/
+
+# =====================================
+# IDE / Editor
+# =====================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================================
+# Logs / temporary files
+# =====================================
+*.log
+logs/
+temp/
+tmp/
+
+# =====================================
+# Operating system
+# =====================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================================
+# Frontend
+# =====================================
+node_modules/
+dist/
+build/
+.cache/
+
+# =====================================
+# Testing / coverage
+# =====================================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =====================================
+# Render / deployment
+# =====================================
+.render/
