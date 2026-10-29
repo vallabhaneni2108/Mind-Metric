@@ -6,7 +6,7 @@
 
 // Local FastAPI endpoint.
 // Change this if your backend is deployed.
-const API_URL = "http://127.0.0.1:8000/predict";
+const API_URL = "https://mental-health-predictor-api-y8u6.onrender.com/predict";
 
 
 // Your model's score display range.
